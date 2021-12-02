@@ -1,3 +1,18 @@
+*{
+  padding: 0;
+  margin:0;
+  }
+header {
+  letter-spacing: 1px;
+  height: 50px;
+  background: #000000;
+  color: #fff;
+ }
+.logo {
+  float: left;
+  margin: 0;
+  padding: 10px;
+}
 nav {
     float: right;
   }
@@ -21,19 +36,35 @@ ul {
   }
  
   .button {
-    border: 2px solid white;
-    border-radius: 30px;
     text-decoration: none;
-    padding: 10px 18px;
-    color: black;
-    margin-top: 10px;
+    font-size: 24px;
+    position: relative;
     display: inline-block;
+    color: #fff;
+    transition: color .3s ease-out;
+
   }
   .button:hover {
-    background-color: white;
-    color: #1686d9;
-    border: 2px solid #1686d9;
+    color: #fff;
   }
+   .buttonSub{
+    border: none;
+    text-decoration: none;
+    background: #3e494e;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease; 
+  }
+  .buttonSub:hover {
+    background: rgba(0,0,0,0);
+    color: #171a1b;
+    box-shadow: inset 0 0 0 3px #6a767c;
+  }
+  
  .bg-modal1 {
     background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
@@ -55,7 +86,7 @@ ul {
     align-items: center;
   }
   .modal-contents {
-    height: 200px;
+    height: 300px;
     width: 500px;
     background-color: white;
     text-align: center;
@@ -64,9 +95,9 @@ ul {
     border-radius: 4px;
   } 
   input {
-    margin: 15px auto;
+    margin: 25px auto;
     display: block;
-    width: 50%;
+    width: 60%;
     padding: 8px;
     border: 1px solid gray;
   }
