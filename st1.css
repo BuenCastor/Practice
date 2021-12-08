@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    letter-spacing: 1px;
+    height: 50px;
+    background: #000000;
+    /* color: #fff;  */
+}
+
+.logo {
+    float: left;
+    margin: 0;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    text-decoration: none;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    transition: color .3s ease-out;
+}
+
+.button:hover {
+    color: #fff;
+}
+
+.buttonSub {
+    border: none;
+    text-decoration: none;
+    background: #3e494e;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 500ms ease;
+}
+
+.buttonSub:hover {
+    background: rgba(0, 0, 0, 0);
+    color: #171a1b;
+    box-shadow: inset 0 0 0 3px #6a767c;
+}
+
+.bg-modal1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-modal2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-contents {
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    border-radius: 4px;
+}
+
+input {
+    margin: 25px auto;
+    display: block;
+    width: 60%;
+    padding: 8px;
+    border: 1px solid gray;
+}
+
+.close1 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close1:hover {
+    color: #666;
+}
+
+.close2 {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
+.close2:hover {
+    color: #666;
+}
+
+.imgMain {
+    width: 60%;
+    float: right;
+    margin: 0 0 0 3.5%;
+    border-radius: 10px;
+}
+
+.h1_1 {
+    position: absolute;
+    margin: 0 0 0 10%;
+    margin-top: 10%;
+}
